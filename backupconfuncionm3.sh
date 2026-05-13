@@ -8,8 +8,9 @@ echo "Backup complete!"
 }
 
 mostrar_mensaje () {
+echo "he entrado en el bloque de la funcion"
 }
 
 
 #A better approach is to use functions
-#perform_backup ${1}
+mostrar_mensaje
